@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail submit form </title>
+
+</head>
+<body>
+<form action=""> 
+    <h1>payment  Form </h1>
+    <h2>contact</h2>
+
+    <p>Name: <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>gender:</legend>
+    <p> male<input type="radio" name="gender" id="" required>
+        female<input type="radio" name="gender" id="" required>
+        other<input type="radio" name="gender" id="" required>   
+    </p>
+    </fieldset> 
+    <p>
+        Address:</address><textarea name="address" id="address" rows="5" cols="150" required></textarea>
+    </p>
+    <p>
+        email: <input type="email" name="email" id="email" required>
+
+    </p>
+    <p>
+        pincode:<input type="number" name="pincode" id="pincode" required>
+    </p>
+<h3> payment</h3>
+ <select name="card" id="card" required>
+ <option value="">select card</option>
+ <option value="visa">visa</option>
+<option value="debit">debit</option>
+<option value="creadit">creadit</option>₹
+</select>
+<p> card numer:
+    <input type="number" name="card number" id="card number" required>
+</p>
+<p> 
+    <h2>cvv: <input type="password" name="cvv" id="cvv" required>
+    </h2>
+</p>
+<p>
+    ex date: <input type="date" name="ex date" id="ex date" required>
+</p>
+
+<input type="submit" value="pay now">
+
+</form>
+</body>
+</html>
